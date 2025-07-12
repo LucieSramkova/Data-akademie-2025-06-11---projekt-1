@@ -12,12 +12,15 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
 
 
 Zpracování otázek
-
+1. Vzhledem k tomu, že mzdy z datové sady *czechia_payroll* byly uváděny za jednotlivá čtrtvletí, nejprve jsem si vytvořila view *v_lucie_sramkova_czechia_payroll_average*, abych získala průměrnou mzdu za rok pro jednotlivé kategorie. Následné jsem na zákaldě této informace vytvořila další view *v_lucie_sramkova_czechia_payroll_difference*, kde jsem si stanovila jaký je meziroční nárůst/pokles pro jednotlivé kategorie a vytvořila nový sloupec 'payroll_increase', kde jsem si označila YES/NO/SAME, kde dochází k růstu/poklesu případně je hodnota uplně stejná. Následně jsem si v rámci tohoto view zobrazila pouze takové odvětví, kde dochází k poklesu nebo je hodnota stejná.
 
 
 Odpovědi na výzkumné oztázky
    
 **1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?**
+Na zákaldě zjištěných dat dochází v některých odvětvích k meziročnímu poklesu mzdy v rámci sledovaného období 2006. Celkem byl meziroční pokles během sledovaného období zaznamenán u 15 odvětví, přičemz u 
+
+
    
  **2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?**
         
@@ -25,4 +28,4 @@ Odpovědi na výzkumné oztázky
         
 **4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?**
    
-**6. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?**
+**5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?**
