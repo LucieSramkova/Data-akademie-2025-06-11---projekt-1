@@ -5,17 +5,17 @@ SQL projekt k datové akademii Engeto
 **Zadání projektu**
 Cílem projektu č.1 v rámci Datové akademie zahájené dne 11. června 2025 bylo pomocí SQL odtazů poskytnout odpověď na několik výzkumných otázek týkajících se dostupnosti potravin pro širokou veřejnost. Připravené soubory budou sloužit jako podpůrné a zdrojové materiály pro zodpovězení předem stanovených výzkumných otázek a zároveň budou poskytnuty tiskovému oddělení naší společnost. Zdrojovými daty  pro celý projekt byly datové sady, se kterými jsme pracovali již v rámci akademie a na základě nich jsem si připravila dvě vlastní tabulky (primární a sekundární), ze kterých následně vycházejí odpovědi na výzkumné otázky. 
 
-** Postup v rámci projektu**
+**Postup v rámci projektu**
 
 Příprava drojových tabulek
 V první části jsem nejprve připravovala tabulky, ze kterých vychází celý projekt. Dle výzkumných otázek jsem si stanovila jaká data budu potřebovat pro následné zodpovězení všech otázek a pomocí funkce JOIN jsem spojila několik datových sad do primární tabulky *t_lucie_sramkova_project_sql_primary_final* a sekundární tabulky *t_lucie_sramkova_project_SQL_secondary_final*. Primární tabulka zahrnuje potřebné informace týkající se mezd a cen potravin v rámci České republiky. Sekundární tabulka zahrnuje ukazatele HDP, GINI koeficiente a populace dalších evropských států pro stejné sledované období, jako primární přehled pro ČR.
 
 
-Zpracování otázek
+**Zpracování otázek**
 1. Vzhledem k tomu, že mzdy z datové sady *czechia_payroll* byly uváděny za jednotlivá čtrtvletí, nejprve jsem si vytvořila view *v_lucie_sramkova_czechia_payroll_average*, abych získala průměrnou mzdu za rok pro jednotlivé kategorie. Následné jsem na zákaldě této informace vytvořila další view *v_lucie_sramkova_czechia_payroll_difference*, kde jsem si stanovila jaký je meziroční nárůst/pokles pro jednotlivé kategorie a vytvořila nový sloupec 'payroll_increase', kde jsem si označila YES/NO/SAME, kde dochází k růstu/poklesu případně je hodnota uplně stejná. Následně jsem si v rámci tohoto view zobrazila pouze takové odvětví, kde dochází k poklesu nebo je hodnota stejná.
 
 
-Odpovědi na výzkumné oztázky
+**Odpovědi na výzkumné oztázky**
    
 **1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?**
 Na zákaldě zjištěných dat dochází v některých odvětvích k meziročnímu poklesu mzdy v rámci sledovaného období 2006. Celkem byl meziroční pokles během sledovaného období zaznamenán u 15 odvětví, přičemz u 
