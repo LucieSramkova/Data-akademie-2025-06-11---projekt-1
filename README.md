@@ -23,17 +23,17 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
 **1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?**
    Na základě zjištěných dat dochází v některých odvětvích k meziročnímu poklesu mzdy v rámci sledovaného období 2006. Celkem byl meziroční pokles během sledovaného období zaznamenán u 15 odvětví, přičemz u 
 
-
    
 **2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?**
-   Na základě SQL dotazu bylo zjištěno, že v případě, že budeme počítat počet litrů mléka a kilogramů chleba pro průměrnou vzdu za daný rok (pro všechna odvětví dohromady), v roce 
-   | Syntax | Description |
-| ----------- | ----------- |
-| Rok mereni | Kategorie potravin | Množství | 
-|2006 | Chléb konzumní kmínový|  1287 |
-|2018 | Chléb konzumní kmínový|  1342 |
-|2006 | Mléko polotučné pasterované| 1437 |
-|2018 | Mléko polotučné pasterované|  1641 |
+   Na základě SQL dotazu bylo zjištěno, že v případě, že budeme zjišťovat počet litrů mléka a kilogramů chleba pro průměrnou mzdu za sledovaný rok (pro všechna odvětví dohromady), jedná se o následující počty:
+   
+   | Syntax | Description |Description |
+   | ----------- | ----------- |----------- |
+   | Rok mereni | Kategorie potravin | Množství | 
+   |2006 | Chléb konzumní kmínový| **1287** |
+   |2018 | Chléb konzumní kmínový|  **1342** |
+   |2006 | Mléko polotučné pasterované| **1437** |
+   |2018 | Mléko polotučné pasterované|  **1641** |
         
 **3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?**
         
