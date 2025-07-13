@@ -25,7 +25,7 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
 
    
 **2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?**
-   Na základě SQL dotazu bylo zjištěno, že v případě, že budeme zjišťovat počet litrů mléka a kilogramů chleba pro průměrnou mzdu za sledovaný rok (pro všechna odvětví dohromady), jedná se o následující počty:
+  Pomocí SQL dotazu bylo zjištěno, že v případě, že nás zajímá počet litrů mléka a kilogramů chleba pro průměrnou mzdu za sledovaný rok (pro všechna odvětví dohromady), jedná se o následující počty:
    
    | Syntax | Description |Description |
    | ----------- | ----------- |----------- |
@@ -34,6 +34,10 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
    |2018 | Chléb konzumní kmínový|  **1342** |
    |2006 | Mléko polotučné pasterované| **1437** |
    |2018 | Mléko polotučné pasterované|  **1641** |
+
+   Množství v tabulce představuje kolik je možné koupit za danou průměrnou mzdu litrů mléka anebo chleba (vždy pouze jedno z toho), nejedná se o kombinaci obou potravin.
+
+   Co se týká počtu mléka a chleba pro každé odvětví zvlášt, dalo by se blíže zkoumat zda v nějakém odvětví nastal například pokles v množství dostupnosti potravin vuči mzdě od v porovnání roku 2006 a 2018.
         
 **3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?**
         
