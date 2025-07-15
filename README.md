@@ -40,6 +40,7 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
    Co se týká počtu mléka a chleba pro každé odvětví zvlášt, dalo by se blíže zkoumat zda v nějakém odvětví nastal například pokles v množství dostupnosti potravin vuči mzdě od v porovnání roku 2006 a 2018.
         
 **3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?**
+      Ve sledovaném období od roku 2006 do roku 2018 je zaznamenán nejnižší procentuální nárůst u kategorie **Cukr krystalový**, kde je dokonce průměrný meziroční pokles 1,92 %. Na druhém místě je kategorie **Rajská jablka červená kulatá**, kde je opět meziroční pokles 0,73 %. U všech ostatnách potravin, ktereé byly součástí výzkumu je zaznamenán meziroční růst. Nejvyšší průměrný růst cen je u kategorie **Papriky** ve výši 7,29 %.
         
 **4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?**
    
