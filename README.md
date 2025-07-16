@@ -3,11 +3,11 @@ SQL projekt k datové akademii Engeto
 
 
 **Zadání projektu**
-Cílem projektu č.1 v rámci Datové akademie zahájené dne 11. června 2025 bylo pomocí SQL odtazů poskytnout odpověď na několik výzkumných otázek týkajících se dostupnosti potravin pro širokou veřejnost. Připravené soubory budou sloužit jako podpůrné a zdrojové materiály pro zodpovězení předem stanovených výzkumných otázek a zároveň budou poskytnuty tiskovému oddělení naší společnost. Zdrojovými daty  pro celý projekt byly datové sady, se kterými jsme pracovali již v rámci akademie a na základě nich jsem si připravila dvě vlastní tabulky (primární a sekundární), ze kterých následně vycházejí odpovědi na výzkumné otázky. 
+Cílem SQL projektu bylo pomocí SQL dotazů poskytnout odpověď na pedem stanovené výzkumné otázky týkající se dostupnosti potravin pro širokou veřejnost v České republice. Připravené soubory  (pomocí SQL dotazů) budou sloužit jako podpůrné a zdrojové materiály pro zodpovězení předem stanovených výzkumných otázek a zároveň budou poskytnuty tiskovému oddělení. Zdrojovými daty  pro celý projekt byly datové sady, se kterými jsme pracovali již v rámci Datové akademie a na základě nich jsem si připravila dvě vlastní tabulky (primární a sekundární), ze kterých následně vycházejí odpovědi na výzkumné otázky. 
 
 **Postup v rámci projektu**
 
-Příprava drojových tabulek
+Příprava zdrojových tabulek
 V první části jsem nejprve připravovala tabulky, ze kterých vychází celý projekt. Dle výzkumných otázek jsem si stanovila jaká data budu potřebovat pro následné zodpovězení všech otázek a pomocí funkce JOIN jsem spojila několik datových sad do primární tabulky *t_lucie_sramkova_project_sql_primary_final* a sekundární tabulky *t_lucie_sramkova_project_SQL_secondary_final*. Primární tabulka zahrnuje potřebné informace týkající se mezd a cen potravin v rámci České republiky. Sekundární tabulka zahrnuje ukazatele HDP, GINI koeficiente a populace dalších evropských států pro stejné sledované období, jako primární přehled pro ČR.
 
 
@@ -17,6 +17,8 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
 2. Ze zadání vyplývá, že hledáme ceny chleba a mléka pro první a poslední sledované období, které následně budeme porovnávat se mzdou za stené sledované období. V zadání není uvedeno zda nás zajímá informace pro každé odvětví zvlášť nebo zda se jedná o průměrnou mzdu skrze všechna odvětví,  SQL skriptu jsem tedy přiravila dotaz pro oba případy.
    Nejprve jsem si zjistila, jaký je první a poslední rok sledovaného období a jaký je název kategorie pro chléb a mléko, se kterým budu dále pracovat. Vzhledem k častému (týdennímu měření cen) jsem si vypočítala průměrnou cenu za daný rok pro daný produkt, a také průměrnou výši mzdy. Pomocí kluzule WHERE jsem vyfiltrovala pouze první a poslední roka (2006 a 2018) a dvě sledované kategorie potravin (Mléko a chléb). 
 
+
+5. 
 
 **Odpovědi na výzkumné oztázky**
    
