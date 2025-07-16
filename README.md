@@ -21,7 +21,7 @@ Nejprve jsem si zjistila, jaký je první a poslední rok sledovaného období a
 
 4. Vytvořila jsem VIEW *v_lucie_sramkova_czechia_average_price_payroll*, kde jsem zjistila průměrnou cenu a průměrnou mzdu za každý rok (bez ohledu na kategorii a odvětví). Dale jsem vypočítala jaký je meziroční rozdíl v průměrné mzdě a průměrné ceně v Kč a v %. V posledním kroku jsem určila o jaký meziroční typ růstu se jedná, dle výše rozdílu mezi růstem mezd a cen.
 
-5. 
+5. Nejprve jsem si vytvořila VIEW *v_lucie_sramkova_czechia_gdp_increase *, kde jsem zjistila vývoj HDP pouze pro Českou republiku a meziroční nárůst. Poté jsem z tohoto VIEW vytvořila další VIEW *v_lucie_sramkova_comparison_gdp_price_payroll*, ke jsem pomoci JOIN spojila dvě dříve vytvořená VIEWs, abych zjistila také průměrný mezirořní nárůst cen a mezd za jednotlivé roky. Ve výzkumné otázce nás zajímá, kde byl výrazný růst HDP promítnut také do nárůstu cen a mezd za daný nebo následující rok. Proto jsem jako poslední rozdělila procentuální růst DPH do třech kategorií, abych identifikovala, kde je růst výraznější. 
 
 **Odpovědi na výzkumné oztázky**
    
