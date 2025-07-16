@@ -46,3 +46,5 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
       Mezi lety 2006 a 2018 nedošlo k výraznému navšení cen oproti růstu mezd. Nejvyšší zaznamenaný růst byl v roce 2013, kde ceny meziročně vzrostly o 7,11 %. 
    
 **5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?**
+      Ve sledovaném obodbí byl nejvyšší meziroční nárůst HDP v roce 2007 o 5,57 %, který se projevil také v cenách potravin a ve mzdách v roce 2007 i 2008. Dalším významným rokem, co se týká růstu HDP byl rok 2017,kde byl zazanemnán meziroční nárůst 5,17 %, v tomto roce se to výrazně projevilo v cenách potravin (9,98 %) a také mzdách. v následujícím roce byl naopak růst cen velmi mírný, zatímco mzdy zaznamenaly další výrzaný meziroční nárůst.
+      Ve sledovaném období byl meziroční nárůst HDP také v roce 2015, ale to se naopak nijak neprojevilo v cenách potravin a ve mzdách v 2015, ale ani v 2016. 
