@@ -43,6 +43,6 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
       Ve sledovaném období od roku 2006 do roku 2018 je zaznamenán nejnižší procentuální nárůst u kategorie **Cukr krystalový**, kde je dokonce průměrný meziroční pokles 1,92 %. Na druhém místě je kategorie **Rajská jablka červená kulatá**, kde je opět meziroční pokles 0,73 %. U všech ostatnách potravin, ktereé byly součástí výzkumu je zaznamenán meziroční růst. Nejvyšší průměrný růst cen je u kategorie **Papriky** ve výši 7,29 %.
         
 **4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?**
-   Mezi lety 2006 a 2018 nedošlo k výraznému navšení cen oproti růstu mezd. Nejvyšší zaznamenaný růst byl v roce 2013, kde ceny meziročně vzrostly o 7,11 %. 
+      Mezi lety 2006 a 2018 nedošlo k výraznému navšení cen oproti růstu mezd. Nejvyšší zaznamenaný růst byl v roce 2013, kde ceny meziročně vzrostly o 7,11 %. 
    
 **5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?**
