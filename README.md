@@ -17,9 +17,10 @@ V první části jsem nejprve připravovala tabulky, ze kterých vychází celý
 2. Ze zadání vyplývá, že hledáme ceny chleba a mléka pro první a poslední sledované období, které následně budeme porovnávat se mzdou za stené sledované období. V zadání není uvedeno zda nás zajímá informace pro každé odvětví zvlášť nebo zda se jedná o průměrnou mzdu skrze všechna odvětví,  SQL skriptu jsem tedy přiravila dotaz pro oba případy.
 Nejprve jsem si zjistila, jaký je první a poslední rok sledovaného období a jaký je název kategorie pro chléb a mléko, se kterým budu dále pracovat. Vzhledem k častému (týdennímu měření cen) jsem si vypočítala průměrné ceny pro tyto kategorie za každý rok (2006 až 2018),průměrné mzdy pro jednotlivá odvětví kolik je možné nakoupit chleba a mléka za danou mzdu a rok. To stejné jsem udělala i v další tabulce, kde jsem už nepočítala průmernou mzdu za každou kategorii odděleně, ale celkově.
 
-3. Nejprve jsem vytvořila tabulku *t_lucie_sramkova_czechia_price_comparison*, kde jsem zjistila jaká je průměrná cena za rok pro danou kategorii a jaký je meziroční rozdíl. Následně jsem z ní vycházela při výpočtu procentuálního meziročního růstu cen a vytvořila si VIEW *v_lucie_sramkova_czechia_percentage_increase*. Poté už jsem z tohoto VIEW jenom vypočítala průměrný procentuální nárůst za danou kategorii za celé sledované období.
+3. Nejprve jsem vytvořila tabulku *t_lucie_sramkova_czechia_price_comparison*, kde jsem zjistila jaká je průměrná cena za rok pro danou kategorii a jaký je meziroční rozdíl. Následně jsem z ní vycházela při výpočtu procentuálního meziročního růstu cen a vytvořila si VIEW *v_lucie_sramkova_czechia_percentage_increase*. Poté už jsem z tohoto VIEW jenom vypočítala průměrný procentuální nárůst za danou kategorii za celé sledované období a seřaila od nejpomalejšího průměrného růstu. 
 
-4. 
+4. Vytvořila jsem VIEW *v_lucie_sramkova_czechia_average_price_payroll*, kde jsem zjistila průměrnou cenu a průměrnou mzdu za každý rok (bez ohledu na kategorii a odvětví). Dale jsem vypočítala jaký je meziroční rozdíl v průměrné mzdě a průměrné ceně v Kč a v %. V posledním kroku jsem určila o jaký meziroční typ růstu se jedná, dle výše rozdílu mezi růstem mezd a cen.
+
 5. 
 
 **Odpovědi na výzkumné oztázky**
@@ -47,7 +48,7 @@ Nejprve jsem si zjistila, jaký je první a poslední rok sledovaného období a
       Ve sledovaném období od roku 2006 do roku 2018 je zaznamenán nejnižší procentuální nárůst u kategorie **Cukr krystalový**, kde je dokonce průměrný meziroční pokles 1,92 %. Na druhém místě je kategorie **Rajská jablka červená kulatá**, kde je opět meziroční pokles 0,73 %. U všech ostatnách potravin, ktereé byly součástí výzkumu je zaznamenán meziroční růst. Nejvyšší průměrný růst cen je u kategorie **Papriky** ve výši 7,29 %.
         
 **4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?**
-      Mezi lety 2006 a 2018 nedošlo k výraznému navšení cen oproti růstu mezd. Nejvyšší zaznamenaný růst byl v roce 2013, kde ceny meziročně vzrostly o 7,11 %. 
+      Mezi lety 2006 a 2018 nedošlo k výraznému navýšení cen oproti růstu mezd. Nejvyšší zaznamenaný růst byl v roce 2013, kde ceny meziročně vzrostly o 7,11 %. 
    
 **5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?**
       Ve sledovaném obodbí byl nejvyšší meziroční nárůst HDP v roce 2007 o 5,57 %, který se projevil také v cenách potravin a ve mzdách v roce 2007 i 2008. Dalším významným rokem, co se týká růstu HDP byl rok 2017,kde byl zazanemnán meziroční nárůst 5,17 %, v tomto roce se to výrazně projevilo v cenách potravin (9,98 %) a také mzdách. v následujícím roce byl naopak růst cen velmi mírný, zatímco mzdy zaznamenaly další výrzaný meziroční nárůst.
